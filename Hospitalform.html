@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hospital Form</title>
+</head>
+<body>
+	Hello, welcome to Maple online hospital. Please fill out your information and preferences to talk to a doctor. <br>
+	<form>
+
+		<h3>Please fill out your information</h3><br> 
+
+
+		Firstname: 
+		<input type="text" name="fname"><br>
+		Lastname: 
+		<input type="text" name="lname"><br>
+		Gender : <br>
+		<input type="radio" name="g" value="m">Male&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="g" value="f">Female&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="g" value="o">Other<br>
+
+		Please select your symptom(s)<br>
+
+		Symptoms: <br>
+		<input type="checkbox" name="b1" value="1">Coughing<br>
+		<input type="checkbox" name="b2" value="2">Runny nose<br>
+		<input type="checkbox" name="b3" value="3">Headache<br>
+		<input type="checkbox" name="b4" value="4">Fever<br>
+		<input type="checkbox" name="b5" value="5">Infection<br>
+		<input type="checkbox" name="b6" value="6">Sore throat<br>
+		<input type="checkbox" name="b7" value="7">Check-ups<br>
+		<input type="checkbox" name="b1" value="8">Other, please tell us <input type="text" name="etc"><br>
+
+
+		Please type in your adress incase of medicine shipping:<br>
+		<input type="text" name="adress"><br>
+
+		Please type in your age for medical reasons: <br>
+		<input type="text" name="age"><br>
+
+		Please include any allergies you have: <br>
+		<input type="text" name="allergies"><br>
+
+		Please type in an email you would like to recieve a call link to:<br>
+		<input type="text" name="your email"><br>
+
+
+
+		<h3>Now please select your preferences:</h3><br>
+
+		Please select a time you would like a call from the doctor, this is an automatic website and you will recieve a link to join call with the doctor within 2 hours after filling in your information, here are some availible times for today :<br>
+
+
+		<select>
+			<option value="0">Please Select</option>
+			<option value="1">7:00</option>
+			<option value="2">8:00</option>
+			<option value="3">9:00</option>
+			<option value="4">10:00</option>
+			<option value="4">11:00</option>
+			<option value="4">14:00</option>
+			<option value="4">16:00</option>
+			<option value="4">17:00</option>
+		</select><br>
+
+		Please select a prefered doctor
+		<select>
+			<option value="a">Please Select</option>
+			<option value="b">Doctor Sandee</option>
+			<option value="c">Doctor Poomjai</option>
+			<option value="d">Doctor Mod </option>
+			<option value="e">Any doctor</option>
+		</select><br>
+
+		<input type="submit" name="ok" value="submit response">
+		<input type="reset" name="no" value="Clear">
+
+
+	</form>
+	<li><a href= "index.html">Back to homepage</a></li>
+</body>
+</html>
